@@ -1,0 +1,11 @@
+from praxshell.config.constants import BANNER, VERSION
+from praxshell.cli.utils.color_utils import color
+
+def show_banner():
+    """Prints the ASCII banner from constants.py"""
+    print(color(BANNER, "cyan"))
+
+def show_welcome_message():
+    """Greets the user with version info"""
+    print(color(f"\n+=== Welcome to Praxshell v{VERSION} ===+", "green"))
+    print(color("Type 'help' to see available commands.\n", "yellow"))
