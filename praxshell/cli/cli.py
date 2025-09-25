@@ -1,7 +1,3 @@
-"""
-CLI entrypoint for Praxshell.
-"""
-
 from .core_shell import PraxShell
 from .ui_elements import show_banner, show_welcome_message
 from praxshell.cli.utils.display import print_error, print_info, print_warning
@@ -11,7 +7,6 @@ def main():
     show_banner()
     show_welcome_message()
 
-    # First-time setup: check for PraxVault
     if not LOCAL_VAULT_PATH.exists():
         print_warning("No PraxVault found.")
         try:
