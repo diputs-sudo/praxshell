@@ -67,16 +67,14 @@ class PraxShell(cmd.Cmd):
         return complete_history(text, line, begidx, endidx)
 
     def precmd(self, line: str) -> str:
-        """Runs before each command is executed."""
         if line.strip():
-            print()  # blank line before command output
+            print()  
             record_history(line.strip())
         return line
 
     def postcmd(self, stop, line):
-        """Runs after each command is executed."""
         if line.strip():
-            print()  # blank line after command output
+            print() 
         return stop
 
     def do_update(self, arg):
