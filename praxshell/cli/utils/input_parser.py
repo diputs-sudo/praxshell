@@ -1,8 +1,3 @@
-"""
-Input parsing for Praxshell.
-Currently minimal — just split command + args.
-"""
-
 import shlex
 
 def parse_command(line: str) -> tuple[str, str]:

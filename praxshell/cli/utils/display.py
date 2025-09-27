@@ -1,8 +1,3 @@
-"""
-Display helpers for Praxshell.
-Consistent formatting for shell outputs.
-"""
-
 from .color_utils import color
 
 def print_info(msg: str):

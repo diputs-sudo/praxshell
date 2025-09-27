@@ -2,7 +2,6 @@ import re, json, webbrowser, http.client
 from pathlib import Path
 from praxshell.cli.utils.display import print_info, print_success, print_error
 
-# Single render target
 HTML_DIR = Path(__file__).resolve().parents[2] / "html"
 HTML_DIR.mkdir(exist_ok=True)
 OUT_FILE = HTML_DIR / "__render.html"

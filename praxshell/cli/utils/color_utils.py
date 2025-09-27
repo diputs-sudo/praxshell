@@ -1,8 +1,3 @@
-"""
-Minimal color utility for Praxshell.
-Keeps CLI lightweight without external deps like colorama.
-"""
-
 def color(text: str, color_name: str, bold: bool = False) -> str:
     colors = {
         "reset": "\033[0m",

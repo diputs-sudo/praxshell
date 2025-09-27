@@ -1,7 +1,3 @@
-"""
-Fuzzy matching / typo correction for Praxshell.
-"""
-
 import difflib
 from typing import List, Optional
 
