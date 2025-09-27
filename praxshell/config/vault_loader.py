@@ -5,7 +5,7 @@ from praxshell.cli.commands.update_cmd import LOCAL_VAULT_PATH
 CONFIG_PATH = LOCAL_VAULT_PATH / "config"
 
 def _load_json(name: str, fallback: dict = None):
-    """Load a JSON config file from vault/config/"""
+    # Load a JSON config file from vault/config/
     f = CONFIG_PATH / f"{name}.json"
     if f.exists():
         try:
