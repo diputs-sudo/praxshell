@@ -29,7 +29,7 @@ BUILTIN_CMDS = {
     "roadmap": "View or follow study roadmaps. Usage: roadmap [list|show|next]",
     "help": "Show help for commands or options.",
     "history": "View past commands. Usage: history [all|clear|find]",
-    "update": "Update praxvault. Usage: update [vault|core|all]",
+    "update": "Update praxvault. Usage: update vault [merge] ",
     "version": "Show Praxshell version.",
     "exit": "Exit Praxshell.",
     "quit": "Alias for exit.",
@@ -42,7 +42,5 @@ SUBCOMMANDS = {
     "help": [],
     "update": {
         "vault": ["merge"],
-        "core": [],
-        "all": ["merge"],
     },
 }
