@@ -1,6 +1,5 @@
 # Praxshell
 ![PyPI](https://img.shields.io/pypi/v/praxshell)
-![Python](https://img.shields.io/pypi/pyversions/praxshell)
 ![License](https://img.shields.io/github/license/diputs-sudo/praxshell)
 
 Praxshell is a lightweight Python-powered CLI for learning machine learning concepts.  
