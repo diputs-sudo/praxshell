@@ -179,7 +179,7 @@ prax > search why does gradient descent sometimes get stuck in local minima
 
 Praxshell is designed to be dependency-free. It only requires:
 
-- **Python 3.9+** (tested on 3.9, 3.10, 3.11)  
+- **Python 3.9+** 
 - **PraxVault** – contains all study notes, roadmaps, and examples  
   - Repository: [https://github.com/diputs-sudo/praxvault](https://github.com/diputs-sudo/praxvault)  
   - Praxshell will download and set this up automatically on first run  
